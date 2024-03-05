@@ -22,16 +22,15 @@
   <div class="w3-top">
     <div class="w3-bar w3-black w3-card">
       <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <a href="home.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-      <a href="programacao.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROGRAMAÇÃO</a>
-      <a href="loja.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOJA</a>
+      <a href="programacao.html" class="w3-bar-item w3-button w3-padding-large">PROGRAMAÇÃO</a>
+      <a href="ingressos.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INGRESSOS</a>
+      <a href="patrocinadores.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PARCEIROS</a>
+
       <div class="w3-dropdown-hover w3-hide-small">
         <button class="w3-padding-large w3-button" title="More">MAIS <i class="fa fa-caret-down"></i></button>     
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
           <a href="localizacao.html" class="w3-bar-item w3-button">Local</a>
-          <a href="patrocinadores.html" class="w3-bar-item w3-button">Patrocinadores</a>
-          <!-- <a href="parceiros.html" class="w3-bar-item w3-button">Parceiros</a> -->
-          <!-- <a href="pessoas.html" class="w3-bar-item w3-button">Atletas e montanhistas</a> -->
+          <a href="sobre.html" class="w3-bar-item w3-button">Sobre</a>
           <a href="contato.html" class="w3-bar-item w3-button">Contato</a>
         </div>
       </div>
@@ -40,10 +39,10 @@
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="programacao.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROGRAMAÇÃO</a>
   <a href="ingressos.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">INGRESSOS</a>
   <a href="localizacao.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LOCAL</a>
-  <a href="loja.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LOJA</a>
+  <a href="patrocinadores.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PARCEIROS</a>
+  <a href="sobre.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SOBRE</a>
   <a href="contato.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATO</a>
 </div>
 
@@ -54,67 +53,84 @@
   <div class="w3-content" style="max-width:2000px;margin-top:46px">
   
   <!--  Section -->
-  <section id="parceiros">
-    <div class="w3-responsive">
+  <section id="patrocinadores">
       <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
 
-        <h2>Parceiros 2023</h2>
+        <h1 class="w3-wide">Parceiros 2023</h1>
 
-        <table class="w3-table w3-centered">
-          <tr>
-            <td><a href="https://cervejaria3orelhas.com/" target="_blank">
-              <img src="images/3orelhas.png" alt="Cervejaria 3 Orelhas" style="width: auto">
-            </a></td>
-            <td><a href="https://exploreclube.com/" target="_blank">
-              <img src="images/explore_club.png" alt="Explore Club" style="width: auto;">
+        <div class="grid-container">
+          
+          <!-- linha 00 -->
+          <div class="grid-item no-border" style="grid-row: linha-00; grid-column: dia-01;">
+            <a href="https://cervejaria3orelhas.com/" target="_blank">
+              <img src="images/3orelhas.png" alt="Cervejaria 3 Orelhas">
+            </a>
+          </div>
+
+          <div class="grid-item no-border" style="grid-row: linha-00; grid-column: dia-02/dia-02a;">
+
+            <a href="https://exploreclube.com/" target="_blank">
+              <img src="images/explore_club.png" alt="Explore Club">
             </a>
 
             <img src="images/_blank.png">
-            
+
             <a href="https://armburybrasil.com.br/" target="_blank">
-              <img src="images/armbury.png" alt="Arm Bury Brasil" style="width: auto">
-            </a></td>
-            <td>
+              <img src="images/armbury.png" alt="Arm Bury Brasil">
+            </a>
+
+          </div>
+          
+
+          <div class="grid-item no-border" style="grid-row: linha-00; grid-column: dia-03;">   
               <a href="https://www.entrevilas.com.br/" target="_blank">
-                <img src="images/entrevillas.png" alt="Entre Vilas Vinho Natural de Altitude" style="width: auto">
+                <img src="images/entrevillas.png" alt="Entre Vilas Vinho Natural de Altitude">
               </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href="https://seguroaventura.com.br/" target="_blank">
-                <img src="images/rocca.png" alt="Seguro Aventura Roca" style="width: auto">
-              </a>
-            </td>
-            <td>
+          </div>
+
+          <!-- linha 01 -->
+ 
+
+          <!-- linha 02 -->
+          <div class="grid-item no-border" style="grid-row: linha-08; grid-column: dia-01;">
+            <a href="https://seguroaventura.com.br/" target="_blank">
+              <img src="images/rocca.png" alt="Seguro Aventura Roca">
+            </a>
+          </div>
+
+
+          <div class="grid-item no-border" style="grid-row: linha-08; grid-column: dia-02/dia-03;">
               <a href="https://www.lojabio2.com.br/?gclid=CjwKCAjw586hBhBrEiwAQYEnHezdZTj9O9xb40wP-hT_veMXB_H3YB8KUfA-HbCQ_kxV1F5YR-MLoBoCiPoQAvD_BwE" target="_blank">
-                <img src="images/bio2.png" alt="biO2" style="width: auto">
+                <img src="images/bio2.png" alt="biO2">
               </a>
-            </td>
-            <td>
-              <a href="https://rotaserochas.com.br/" target="_blank">
-                <img src="images/rotaserochas.png" alt="Rotas e Rochas Turismo" style="width: auto">
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
+          </div>
+          
+          <div class="grid-item no-border" style="grid-row: linha-08; grid-column: dia-03;">
+            <a href="https://rotaserochas.com.br/" target="_blank">
+              <img src="images/rotaserochas.png" alt="Rotas e Rochas Turismo">
+            </a>
+          </div>
+          
+          <!-- linha 03 -->
+          <div class="grid-item no-border" style="grid-row: linha-09; grid-column: dia-01;">
               <a href="https://www.bivaccorefugio.com.br/" target="_blank">
-                <img src="images/Bivacco Camping e Refugio de Montanha.png" alt="Bivacco Camping e Refugio de Montanha" style="width: 80%">
+                <img src="images/Bivacco Camping e Refugio de Montanha-pqn.png" alt="Bivacco Camping e Refugio de Montanha">
               </a>
-            </td>
-            <td>
-              <a href="http://padilhatreinamentos.com.br/" target="_blank">
-                <img src="images/padilhatreinamentos.png" alt="Padilha Treinamentos" style="width: auto">
-              </a>
-            </td>
-            <td>
-              <a href="https://www.instagram.com/outdooreventos/" target="_blank">
-                <img src="images/outdooreventos.png" alt="Outdoor Eventos" style="width: auto">
-              </a>
-            </td>
-          </tr>
-        </table>
+          </div>
+
+          <div class="grid-item no-border" style="grid-row: linha-09; grid-column: dia-02/dia-03;">
+            <a href="http://padilhatreinamentos.com.br/" target="_blank">
+              <img src="images/padilhatreinamentos.png" alt="Padilha Treinamentos">
+            </a>
+          </div>
+          <div class="grid-item no-border" style="grid-row: linha-09; grid-column: dia-03">
+          
+            <a href="https://www.instagram.com/outdooreventos/" target="_blank">
+              <img src="images/outdooreventos.png" alt="Outdoor Eventos">
+            </a>
+          </div>
+          
+            
           
         </div>        
       </div>

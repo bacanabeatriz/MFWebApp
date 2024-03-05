@@ -2004,7 +2004,7 @@ a {
     display: grid;
     width: 100%;
     grid-template-columns: [dia-01] 1fr [dia-02] 1fr [dia-02a] 1fr [dia-03] 1fr;
-    grid-template-rows: [linha-00] auto [linha-08] 1fr [linha-09] 1fr [linha-10] 1fr [linha-11] 1fr [linha-12] 1fr;
+    grid-template-rows: [linha-00] auto [linha-08] 1fr [linha-09] 1fr [linha-10] 1fr [linha-11] 1fr [linha-12] 1fr [linha-13] 1fr [linha-14] 1fr [linha-15] 1fr;
     padding: 10px;
     font-family: sans-serif;
 }
@@ -2019,6 +2019,10 @@ a {
 
 .days {
     border: 0;
+}
+
+.no-border {
+    border-style: none;
 }
 
 .event-container {
