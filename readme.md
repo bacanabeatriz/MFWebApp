@@ -1,1 +1,1 @@
-Android app para o Mountain Festival 2024 em São Bento do Sapucaí.git 
+Web based app para o Mountain Festival 2024 em São Bento do Sapucaí que servirá de base para o android app.
